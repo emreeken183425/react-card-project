@@ -1,17 +1,15 @@
+import "./App.css";
+import Card from "./components/Card";
 
-import './App.css';
+
 
 
 function App() {
- 
-
-
   return (
     <div className="app">
-     
-<h1>merhaba</h1>
-
-
+         <Card cardTitle="Beşiktaş" />
+         <Card cardTitle="erzurum" />
+         <Card cardTitle="aşkale" />
     </div>
   );
 }
