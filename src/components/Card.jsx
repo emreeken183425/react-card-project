@@ -6,7 +6,7 @@ const Card = (props) => {
   return (
     
     
-        <div className="card d-flex ">
+        <div className="card w-100 ">
           <img src={props.image} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">{props.cardTitle} </h5>
